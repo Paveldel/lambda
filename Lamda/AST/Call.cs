@@ -18,6 +18,7 @@ public class Call(Node function, Node value) : Node
             return definition.Body;
         }
         Function.Reduce();
+        Value.Reduce();
         return this;
     }
     
