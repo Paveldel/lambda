@@ -13,7 +13,7 @@ public class Definition(string parameter, Node body) : Node
 
     public Node Reduce()
     {
-        Body.Reduce();
+        Body = Body.Reduce();
         return this;
     }
 
