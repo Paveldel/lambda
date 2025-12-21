@@ -14,11 +14,10 @@ public class Call(Node function, Node value) : Node
     {
         if (Function is Definition definition)
         {
-            definition.Bind(definition.Parameter, Value);
+            definition.Call(Value);
             return definition.Body;
         }
-        Function.Reduce();
-        Value.Reduce();
+        Function = Function.Reduce();
         return this;
     }
     
