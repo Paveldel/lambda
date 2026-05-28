@@ -1,0 +1,2 @@
+﻿sieve of eratosthenes: λa.((λb.b (b ((λc.(c c)) λc.λd.λe.((e λf.λg.g) ((λf.(((c c) f) (λg.(g g)) λg.(f (g g)))) λf.λg.λh.λi.((i g) (h (d f))))) λc.λd.λe.(b (e c))))) λb.λc.((c λd.λe.d) b))
+graham: ((λc2.λc3.(λc4.(((c3 c4) λn.(((n λf.λb.((b f) λx.x)) λb.λf.(c3 (b f))) c3)) c4) (c2 c2)) λf.λx.(f (f x))) λf.λx.(f (f (f x))))
